@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.pharmeasy.MercuryUI.Gatepass.TC_007_VerifyErrorMessageForVendorSelection">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="verifyErrorMSGforVendor"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.pharmeasy.MercuryUI.Gatepass.TC_007_VerifyErrorMessageForVendorSelection -->
+      <class name="com.pharmeasy.MercuryUI.Gatepass.TC_011_VerifyGatePassUpdation">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="verifyUpdate"/>
+        </methods>
+      </class> <!-- com.pharmeasy.MercuryUI.Gatepass.TC_011_VerifyGatePassUpdation -->
+      <class name="com.pharmeasy.MercuryUI.Gatepass.TC_010_VerifyDateSearchFunctionality">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="verifyDateSearch"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.pharmeasy.MercuryUI.Gatepass.TC_010_VerifyDateSearchFunctionality -->
+      <class name="com.pharmeasy.MercuryUI.Gatepass.TC_008_VerifyVendorSearchFunctionality">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="verifyVendorSearch"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.pharmeasy.MercuryUI.Gatepass.TC_008_VerifyVendorSearchFunctionality -->
+      <class name="com.pharmeasy.MercuryUI.Gatepass.TC_004_VerifyGatePassCreatedDetailsInOrderDetails">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="verifyGatePassCreatedDetailsInOrderDetails" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.pharmeasy.MercuryUI.Gatepass.TC_004_VerifyGatePassCreatedDetailsInOrderDetails -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

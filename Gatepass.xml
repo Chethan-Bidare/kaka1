@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Gatepass Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.pharmeasy.MercuryUI.Gatepass.TC_001_VerifyNewEntryFunctionality"/>
+      <class name="com.pharmeasy.MercuryUI.Gatepass.TC_002_VerifyVendorSelection"/>
+      <class name="com.pharmeasy.MercuryUI.Gatepass.TC_003_VerifyGatePassCreation"/>
+      <class name="com.pharmeasy.MercuryUI.Gatepass.TC_004_VerifyGatePassCreatedDetailsInOrderDetails"/>
+      <class name="com.pharmeasy.MercuryUI.Gatepass.TC_005_VerifyMandatoryFields"/>
+      <class name="com.pharmeasy.MercuryUI.Gatepass.TC_006_VerifyMandatoryFieldsAreHighlighted"/>
+      <class name="com.pharmeasy.MercuryUI.Gatepass.TC_007_VerifyErrorMessageForVendorSelection"/>
+      <class name="com.pharmeasy.MercuryUI.Gatepass.TC_008_VerifyVendorSearchFunctionality"/>
+      <class name="com.pharmeasy.MercuryUI.Gatepass.TC_009_VerifyInvoiceNumberSearchFunctionality"/>
+      <class name="com.pharmeasy.MercuryUI.Gatepass.TC_010_VerifyDateSearchFunctionality"/>
+      <class name="com.pharmeasy.MercuryUI.Gatepass.TC_011_VerifyGatePassUpdation"/>
+      
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Gatepass Suite -->

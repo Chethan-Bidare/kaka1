@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Purchase Entry Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    
+    <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality"/>    
+    
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC002_VerifySearchVendorNameFunctionality"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC003_VerifyNewEntryFunctionalityFromPurchase"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC004_VerifyVendorSelection"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC005_VerifyErrorMessagesForMandatoryFields"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC006_VerifyAutoLoadingFieldsAfterItemSelection"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC007_VerifyPurchaseRateFieldValidation"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC008_VerifyNewbatchCreation"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC009_VerifyPurchaseEntrySuccessMSG"/>
+      
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC010_CalculationsForItemWise"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC011_VerifyTotalInvoiceAmountForMultipleItems"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC012_VerifyTotalTaxAmtForMultipleItems"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC013_VerifyTotalItemDiscAmountForMultipleItems"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC014_VerifyTotalGrossAmtForMultipleItems"/>
+   	  <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC015_VerifyTotalSchDiscAmtForMultipleItems"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC016_VerifyXtraDiscPercentage"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC017_VerifyRoundOffFunctionality"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC018_VerifySchemeDiscFunctionality"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC019_VerifySaveAndContinueButtonFunctionalityInPurchasePage"/>  
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC020_VerifyThePurchaseEntryAfterSaveInPendingEntries"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC021_VerifyAllSearchFieldsInPendingEntries"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC022_VerifyCreditAmountFunctionality"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC023_VerifySaveAndContinueInPendingEntries"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC024_VerifyPurchaseEntryCreationFromPendingEntryPage"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC025_VerifyAllSearchFieldsInSplitVerifierPage"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC026_VerifyPurchaseCreationInSplitVerifier"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC027_VerifyPendingEntryPurchaseInSplitVerifier"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC028_CreatePurchase"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC029_VerifyPaginationInPurchaseEntryPage"/>
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC030_verifyRaiseIssueFunctionality"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

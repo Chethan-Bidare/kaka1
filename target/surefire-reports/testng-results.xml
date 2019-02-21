@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="0" started-at="2019-02-11T11:41:01Z" finished-at="2019-02-11T11:41:01Z">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite name="Purchase Entry Suite" duration-ms="32804" started-at="2019-02-11T11:40:29Z" finished-at="2019-02-11T11:41:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="32804" started-at="2019-02-11T11:40:29Z" finished-at="2019-02-11T11:41:01Z">
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality@7d70d1b1]" name="beforeMethod" is-config="true" duration-ms="3788" started-at="2019-02-11T11:40:29Z" finished-at="2019-02-11T11:40:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality.verifySearchByDateFunctionality() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifySearchByDateFunctionality()[pri:0, instance:com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality@7d70d1b1]" name="verifySearchByDateFunctionality" duration-ms="28513" started-at="2019-02-11T11:40:32Z" finished-at="2019-02-11T11:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByDateFunctionality -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality@7d70d1b1]" name="afterMethod" is-config="true" duration-ms="89" started-at="2019-02-11T11:41:01Z" finished-at="2019-02-11T11:41:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchByDateFunctionality status=SUCCESS method=TC001_VerifySearchByDateFunctionality.verifySearchByDateFunctionality()[pri:0, instance:com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality@7d70d1b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality@7d70d1b1]" name="endTest" is-config="true" duration-ms="388" started-at="2019-02-11T11:41:01Z" finished-at="2019-02-11T11:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality -->
+    </test> <!-- Test -->
+  </suite> <!-- Purchase Entry Suite -->
+</testng-results>
