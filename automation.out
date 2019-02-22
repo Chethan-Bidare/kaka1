@@ -18761,3 +18761,27 @@
 2019-02-21 12:05:51 INFO  TC020_VerifyThePurchaseEntryAfterSaveInPendingEntries:66 - Item Details Before Save : {TAZLOC 20MG TAB 10'S={Total.Tax Amt=11.04, EPR=13.14, D %=8, MRP=38.3, Sch Disc Amt=36.8, Pack Form=10 NO'S, SGST=5.52, Qty=5, NetAmount=103.04, Gross Amt=140, CGST=5.52, Abt MRP=34.2, IGST=0, Ucode=167915, IGST%=12, HSN=30049099, SGST%=6, Bin=A2-R1-S1-001, Pur.Rt Aft Sch Aft Dis=13.14, Total Qty=7, Margin%=61.57, Sch Disc %=0, Item Disc Amt=11.2, Pur.Rt. Aft.Sch=14.29, Exp.=11/21, Pur. Rt=20, Sch. Qty=2, Batch No=337617, CSGT%=6}, CROCIN ADVANCE 500MG TAB={Total.Tax Amt=5.7, EPR=6.79, D %=5, MRP=14.23, Sch Disc Amt=19, Pack Form=15 NO'S, SGST=2.85, Qty=5, NetAmount=53.2, Gross Amt=70, CGST=2.85, Abt MRP=12.71, IGST=0, Ucode=049311, IGST%=12, HSN=30049069, SGST%=6, Bin=A1-R1-S1-001, Pur.Rt Aft Sch Aft Dis=6.79, Total Qty=7, Margin%=46.61, Sch Disc %=0, Item Disc Amt=3.5, Pur.Rt. Aft.Sch=7.14, Exp.=12/22, Pur. Rt=10, Sch. Qty=2, Batch No=123, CSGT%=6}, RANTAC 300MG TAB={Total.Tax Amt=39.06, EPR=46.5, D %=7, MRP=100, Sch Disc Amt=130.2, Pack Form=15 NO'S, SGST=19.53, Qty=5, NetAmount=364.56, Gross Amt=490, CGST=19.53, Abt MRP=89.29, IGST=0, Ucode=148225, IGST%=12, HSN=30049033, SGST%=6, Bin=A1-R1-S1-001, Pur.Rt Aft Sch Aft Dis=46.5, Total Qty=7, Margin%=47.92, Sch Disc %=0, Item Disc Amt=34.3, Pur.Rt. Aft.Sch=50, Exp.=11/30, Pur. Rt=70, Sch. Qty=2, Batch No=123, CSGT%=6}}
 2019-02-21 12:05:51 INFO  TC020_VerifyThePurchaseEntryAfterSaveInPendingEntries:67 - Purchase footer details Before Save : {Round Off=0.0, Debit Amt=0.0, Total Item Disc.=49.0, Xtra Dis%=0.0, Total Gross Amount=465.0, Total Invoice Amt=520.82, test=0.0, Total Sch Disc=186.0, Credit Amt=0.0, Total Tax=39.86}
 2019-02-21 12:05:51 INFO  TC020_VerifyThePurchaseEntryAfterSaveInPendingEntries:68 - Purchase footer details Before Save : {Round Off=0.0, Total Item Disc.=49.0, Debit Amt=0.0, Xtra Dis%=0.0, Total Gross Amount=451.0, Total Invoice Amt=520.8, test=0.0, Total Sch Disc=200.0, Credit Amt=0.0, Total Tax=55.8}
+2019-02-22 11:14:07 INFO  TestBase:74 - Property file successfully loaded from the path : /Users/chethankbidare/git/kaka1/src/main/java/com/pharmeasy/MercuryUI/Config/
+2019-02-22 11:14:07 INFO  TestBase:91 - Property file successfully loaded from the path : /Users/chethankbidare/git/kaka1/src/main/java/com/pharmeasy/MercuryUI/Config/
+2019-02-22 11:14:09 INFO  TestBase:107 - Browser driver instantiated
+2019-02-22 11:14:12 INFO  TestBase:110 -  Navigated to the url 
+2019-02-22 11:14:12 INFO  TC001_VerifySearchByDateFunctionality:24 - ================ Test started =================
+2019-02-22 11:14:14 INFO  LandingPage:106 - Entered user name 
+2019-02-22 11:14:15 INFO  LandingPage:109 - Clicked on Next button 
+2019-02-22 11:14:30 INFO  LandingPage:123 - Failed to Login
+2019-02-22 11:14:37 INFO  LandingPage:90 - Failed to Select Pur.Entry from the Menu options
+2019-02-22 11:14:38 INFO  LandingPage:140 - Failed to select the Open Purchase Entries from the the main menu
+2019-02-22 11:16:38 INFO  TestBase:74 - Property file successfully loaded from the path : /Users/chethankbidare/git/kaka1/src/main/java/com/pharmeasy/MercuryUI/Config/
+2019-02-22 11:16:38 INFO  TestBase:91 - Property file successfully loaded from the path : /Users/chethankbidare/git/kaka1/src/main/java/com/pharmeasy/MercuryUI/Config/
+2019-02-22 11:16:40 INFO  TestBase:107 - Browser driver instantiated
+2019-02-22 11:16:42 INFO  TestBase:110 -  Navigated to the url 
+2019-02-22 11:16:42 INFO  TC002_VerifySearchVendorNameFunctionality:24 - =========== Test Started ===========
+2019-02-22 11:16:44 INFO  LandingPage:106 - Entered user name 
+2019-02-22 11:16:45 INFO  LandingPage:109 - Clicked on Next button 
+2019-02-22 11:16:50 INFO  LandingPage:113 - Entered Password
+2019-02-22 11:16:50 INFO  LandingPage:115 - Clicked on Next button 
+2019-02-22 11:17:00 INFO  LandingPage:86 - Selected Pur.Entry from the Menu options
+2019-02-22 11:17:01 INFO  LandingPage:136 - Selected Open Purchase Entries from the main menu 
+2019-02-22 11:17:02 INFO  LandingPage:194 - Entered Vendor Name from the Vendor Search
+2019-02-22 11:17:07 INFO  PurchaseEntryPage:110 - Fetching all the gate Pass IDs from the Purchase page
+2019-02-22 11:17:10 INFO  PurchaseEntryPage:145 - Fetching all the gate Pass order details from the Order ID in Purchase page

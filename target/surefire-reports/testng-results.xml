@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="0" started-at="2019-02-11T11:41:01Z" finished-at="2019-02-11T11:41:01Z">
+  <suite name="Suite" duration-ms="0" started-at="2019-02-22T05:47:11Z" finished-at="2019-02-22T05:47:11Z">
     <groups>
     </groups>
   </suite> <!-- Suite -->
-  <suite name="Purchase Entry Suite" duration-ms="32804" started-at="2019-02-11T11:40:29Z" finished-at="2019-02-11T11:41:01Z">
+  <suite name="Purchase Entry Suite" duration-ms="184023" started-at="2019-02-22T05:44:07Z" finished-at="2019-02-22T05:47:11Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="32804" started-at="2019-02-11T11:40:29Z" finished-at="2019-02-11T11:41:01Z">
+    <test name="Test" duration-ms="184023" started-at="2019-02-22T05:44:07Z" finished-at="2019-02-22T05:47:11Z">
       <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality">
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality@7d70d1b1]" name="beforeMethod" is-config="true" duration-ms="3788" started-at="2019-02-11T11:40:29Z" finished-at="2019-02-11T11:40:32Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality@2a742aa2]" name="beforeMethod" is-config="true" duration-ms="4841" started-at="2019-02-22T05:44:07Z" finished-at="2019-02-22T05:44:12Z">
           <params>
             <param index="0">
               <value>
@@ -22,26 +22,247 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifySearchByDateFunctionality()[pri:0, instance:com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality@7d70d1b1]" name="verifySearchByDateFunctionality" duration-ms="28513" started-at="2019-02-11T11:40:32Z" finished-at="2019-02-11T11:41:01Z">
+        <test-method status="FAIL" signature="verifySearchByDateFunctionality()[pri:0, instance:com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality@2a742aa2]" name="verifySearchByDateFunctionality" duration-ms="146156" started-at="2019-02-22T05:44:12Z" finished-at="2019-02-22T05:46:38Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Chethans-MacBook-Air.local', ip: 'fe80:0:0:0:409:72a9:fcc5:b1e4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615355 (d5698f682d8b27..., userDataDir: /var/folders/h5/q3k9d4c12jl...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50208}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: c9f15edf62a0d5eeeacdc7ffcd5e1717
+*** Element info: {Using=xpath, value=//*[@placeholder='Search By Date']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Chethans-MacBook-Air.local', ip: 'fe80:0:0:0:409:72a9:fcc5:b1e4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615355 (d5698f682d8b27..., userDataDir: /var/folders/h5/q3k9d4c12jl...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50208}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: c9f15edf62a0d5eeeacdc7ffcd5e1717
+*** Element info: {Using=xpath, value=//*[@placeholder='Search By Date']}
+at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy8.toString(Unknown Source)
+at java.lang.String.valueOf(String.java:2994)
+at java.lang.StringBuilder.append(StringBuilder.java:131)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:699)
+at java.lang.String.valueOf(String.java:2994)
+at java.lang.StringBuilder.append(StringBuilder.java:131)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:279)
+at com.pharmeasy.MercuryUI.Page.LandingPage.searchByDate(LandingPage.java:242)
+at com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality.verifySearchByDateFunctionality(TC001_VerifySearchByDateFunctionality.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchByDateFunctionality -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality@7d70d1b1]" name="afterMethod" is-config="true" duration-ms="89" started-at="2019-02-11T11:41:01Z" finished-at="2019-02-11T11:41:01Z">
+        <test-method status="FAIL" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality@2a742aa2]" name="afterMethod" is-config="true" duration-ms="9" started-at="2019-02-22T05:46:38Z" finished-at="2019-02-22T05:46:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifySearchByDateFunctionality status=SUCCESS method=TC001_VerifySearchByDateFunctionality.verifySearchByDateFunctionality()[pri:0, instance:com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality@7d70d1b1] output={null}]]]>
+                <![CDATA[[TestResult name=verifySearchByDateFunctionality status=FAILURE method=TC001_VerifySearchByDateFunctionality.verifySearchByDateFunctionality()[pri:0, instance:com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality@2a742aa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[imagePath cannot be null or empty]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: imagePath cannot be null or empty
+at com.aventstack.extentreports.ExtentTest.addScreenCaptureFromPath(ExtentTest.java:1120)
+at com.pharmeasy.MercuryUI.Base.TestBase.getResult(TestBase.java:210)
+at com.pharmeasy.MercuryUI.Base.TestBase.afterMethod(TestBase.java:231)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality@2a742aa2]" name="endTest" is-config="true" duration-ms="515" started-at="2019-02-22T05:46:38Z" finished-at="2019-02-22T05:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality -->
+      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC002_VerifySearchVendorNameFunctionality">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.pharmeasy.MercuryUI.PurchaseEntry.TC002_VerifySearchVendorNameFunctionality@3cb1ffe6]" name="beforeMethod" is-config="true" duration-ms="3416" started-at="2019-02-22T05:46:38Z" finished-at="2019-02-22T05:46:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pharmeasy.MercuryUI.PurchaseEntry.TC002_VerifySearchVendorNameFunctionality.verifyVendorSearch() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="verifyVendorSearch()[pri:0, instance:com.pharmeasy.MercuryUI.PurchaseEntry.TC002_VerifySearchVendorNameFunctionality@3cb1ffe6]" name="verifyVendorSearch" duration-ms="28462" started-at="2019-02-22T05:46:42Z" finished-at="2019-02-22T05:47:10Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.pharmeasy.MercuryUI.PurchaseEntry.TC002_VerifySearchVendorNameFunctionality.verifyVendorSearch(TC002_VerifySearchVendorNameFunctionality.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVendorSearch -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.pharmeasy.MercuryUI.PurchaseEntry.TC002_VerifySearchVendorNameFunctionality@3cb1ffe6]" name="afterMethod" is-config="true" duration-ms="474" started-at="2019-02-22T05:47:10Z" finished-at="2019-02-22T05:47:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyVendorSearch status=FAILURE method=TC002_VerifySearchVendorNameFunctionality.verifyVendorSearch()[pri:0, instance:com.pharmeasy.MercuryUI.PurchaseEntry.TC002_VerifySearchVendorNameFunctionality@3cb1ffe6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality@7d70d1b1]" name="endTest" is-config="true" duration-ms="388" started-at="2019-02-11T11:41:01Z" finished-at="2019-02-11T11:41:01Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.pharmeasy.MercuryUI.PurchaseEntry.TC002_VerifySearchVendorNameFunctionality@3cb1ffe6]" name="endTest" is-config="true" duration-ms="89" started-at="2019-02-22T05:47:11Z" finished-at="2019-02-22T05:47:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality -->
+      </class> <!-- com.pharmeasy.MercuryUI.PurchaseEntry.TC002_VerifySearchVendorNameFunctionality -->
     </test> <!-- Test -->
   </suite> <!-- Purchase Entry Suite -->
 </testng-results>
