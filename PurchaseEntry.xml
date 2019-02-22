@@ -5,8 +5,10 @@
     <classes>
    
     <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality"/>    
-     <!-- 
+     
       <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC002_VerifySearchVendorNameFunctionality"/>
+      
+      <!-- 
       <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC003_VerifyNewEntryFunctionalityFromPurchase"/>
       <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC004_VerifyVendorSelection"/>
       <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC005_VerifyErrorMessagesForMandatoryFields"/>
