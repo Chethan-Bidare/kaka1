@@ -4,14 +4,15 @@
   <test thread-count="5" name="Test">
     <classes>
    
+   
+   
+    <!-- 
     <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC001_VerifySearchByDateFunctionality"/>    
-     
-     <!-- 
       <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC002_VerifySearchVendorNameFunctionality"/>
-      
+       -->
       
       <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC003_VerifyNewEntryFunctionalityFromPurchase"/>
-      <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC004_VerifyVendorSelection"/>
+   <!--   <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC004_VerifyVendorSelection"/>
       <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC005_VerifyErrorMessagesForMandatoryFields"/>
       <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC006_VerifyAutoLoadingFieldsAfterItemSelection"/>
       <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC007_VerifyPurchaseRateFieldValidation"/>

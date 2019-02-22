@@ -18785,3 +18785,17 @@
 2019-02-22 11:17:02 INFO  LandingPage:194 - Entered Vendor Name from the Vendor Search
 2019-02-22 11:17:07 INFO  PurchaseEntryPage:110 - Fetching all the gate Pass IDs from the Purchase page
 2019-02-22 11:17:10 INFO  PurchaseEntryPage:145 - Fetching all the gate Pass order details from the Order ID in Purchase page
+2019-02-22 12:55:58 INFO  TestBase:74 - Property file successfully loaded from the path : /Users/chethankbidare/git/kaka1/src/main/java/com/pharmeasy/MercuryUI/Config/
+2019-02-22 12:55:58 INFO  TestBase:91 - Property file successfully loaded from the path : /Users/chethankbidare/git/kaka1/src/main/java/com/pharmeasy/MercuryUI/Config/
+2019-02-22 12:56:01 INFO  TestBase:107 - Browser driver instantiated
+2019-02-22 12:56:03 INFO  TestBase:110 -  Navigated to the url 
+2019-02-22 12:56:03 INFO  TC001_VerifySearchByDateFunctionality:24 - ================ Test started =================
+2019-02-22 12:56:06 INFO  LandingPage:106 - Entered user name 
+2019-02-22 12:56:06 INFO  LandingPage:109 - Clicked on Next button 
+2019-02-22 12:56:11 INFO  LandingPage:113 - Entered Password
+2019-02-22 12:56:11 INFO  LandingPage:115 - Clicked on Next button 
+2019-02-22 12:56:21 INFO  LandingPage:86 - Selected Pur.Entry from the Menu options
+2019-02-22 12:56:22 INFO  LandingPage:136 - Selected Open Purchase Entries from the main menu 
+2019-02-22 12:56:26 INFO  LandingPage:252 - Clicked on From date :22
+2019-02-22 12:56:27 INFO  LandingPage:262 - Clicked on To Date 22
+2019-02-22 12:56:32 INFO  PurchaseEntryPage:183 - Fetching all the gate Pass order ID Dates from the Purchase page
