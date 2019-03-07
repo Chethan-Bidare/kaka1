@@ -12,13 +12,13 @@
        -->
       
       <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC003_VerifyNewEntryFunctionalityFromPurchase"/>
-   <!--   <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC004_VerifyVendorSelection"/>
+     <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC004_VerifyVendorSelection"/>
       <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC005_VerifyErrorMessagesForMandatoryFields"/>
       <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC006_VerifyAutoLoadingFieldsAfterItemSelection"/>
       <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC007_VerifyPurchaseRateFieldValidation"/>
       <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC008_VerifyNewbatchCreation"/>
       <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC009_VerifyPurchaseEntrySuccessMSG"/>
-      
+   <!--    
       <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC010_CalculationsForItemWise"/>
       <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC011_VerifyTotalInvoiceAmountForMultipleItems"/>
       <class name="com.pharmeasy.MercuryUI.PurchaseEntry.TC012_VerifyTotalTaxAmtForMultipleItems"/>
